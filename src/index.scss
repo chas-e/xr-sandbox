@@ -1,0 +1,51 @@
+@import "~bootstrap/scss/bootstrap";
+
+@font-face {
+    src: url(https://fonts.googleapis.com/css2?family=Nunito&family=Pacifico&display=swap);
+
+    font-family: Pacifico, cursive;
+}
+
+@font-face {
+    src: url(https://fonts.googleapis.com/css2?family=Nunito&display=swap);
+
+    font-family: Nunito, sans-serif;
+}
+
+:root {
+    --primary-brand-color: #232323;
+    --secondary-brand-color: #623cea;
+    --brand-purple-shadow: #2f294b;
+    --brand-off-white: #d6d5d9;
+    --light-shadow: #8c8c8c;
+    --dark-shadow: #474747;
+    --brand-complimentary: #c4ea3c;
+    --logo-font: Pacifico, cursive;
+    --secondary-font: Nunito, sans-serif;
+}
+
+* {
+    box-sizing: border-box;
+    margin: 0 auto;
+    box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility;
+
+}
+
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+        'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+        sans-serif;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    line-height: 1;
+
+}
+
+code {
+    font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+        monospace;
+}

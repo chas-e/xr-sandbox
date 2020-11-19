@@ -10,12 +10,21 @@ import Project from '../pages/projects';
 
 export default function Layout(props) {
     return (
-        <>
+        <div
+            style={{
+                minHeight: "100vh",
+                display: "flex",
+                flexDirection: "column",
+            }}
+        >
             <Header />
-            <main>
-                <h2>Welcome to our sandbox!</h2>
+            <main
+                style={{
+                    flexGrow: 1,
+                }}
+            >
             </main>
             <Footer />
-        </>
+        </div>
     );
 }

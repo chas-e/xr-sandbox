@@ -1,13 +1,16 @@
-import React from 'react'
-import Card from 'react-bootstrap/Card'
-<Card style={{ width: '18rem' }}>
-    <Card.Img variant="top" src="holder.js/100px180" />
-    <Card.Body>
-        <Card.Title>Card Title</Card.Title>
-        <Card.Text>
-            Some quick example text to build on the card title and make up the bulk of
-            the card's content.
-    </Card.Text>
-        <Button variant="primary">Go somewhere</Button>
-    </Card.Body>
-</Card>
+import React from 'react';
+import Card from 'react-bootstrap/Card';
+
+
+export default function ProjectCard(props) {
+    return (
+        <div>
+            <Card>
+                <h3>Title of Experience</h3>
+                <p>Description of Experience</p>
+                <input type="submit" value="game" name="game" />
+                <input type="submit" value="threejs" name="threejs" />
+            </Card>
+        </div>
+    );
+}

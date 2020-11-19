@@ -1,3 +1,15 @@
+@font-face {
+    src: url(https://fonts.googleapis.com/css2?family=Nunito&family=Pacifico&display=swap);
+
+    font-family: Pacifico, cursive;
+}
+
+@font-face {
+    src: url(https://fonts.googleapis.com/css2?family=Nunito&display=swap);
+
+    font-family: Nunito, sans-serif;
+}
+
 :root {
     --primary-brand-color: #232323;
     --secondary-brand-color: #623cea;
@@ -6,9 +18,8 @@
     --light-shadow: #8c8c8c;
     --dark-shadow: #474747;
     --brand-complimentary: #c4ea3c;
-    --primary-brand-font: font-family: 'Pacifico', cursive;
-    --secondary-brand-font: font-family: 'Nunito', sans-serif;
-
+    --logo-font: Pacifico, cursive;
+    --secondary-font: Nunito, sans-serif;
 }
 
 * {
@@ -36,6 +47,3 @@ code {
     font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
         monospace;
 }
-
-
-@import url('https://fonts.googleapis.com/css2?family=Nunito&family=Pacifico&display=swap');

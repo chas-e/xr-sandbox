@@ -1,16 +1,28 @@
 import React from 'react';
-import Card from 'react-bootstrap/Card';
+import styled from 'styled-components';
 
 
-export default function ProjectCard(props) {
+const StyledCard = styled.div`
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 0px;
+    position: relative;
+    width: 400px;
+    height: 541px;
+    background: #333333;
+    border: 10px solid #000000;
+    box-shadow: 20px 20px 4px #623CEA;
+    border-radius: 20px;
+`
+
+export default function Card(props) {
     return (
-        <div>
-            <Card>
-                <h3>Title of Experience</h3>
-                <p>Description of Experience</p>
-                <input type="submit" value="game" name="game" />
-                <input type="submit" value="threejs" name="threejs" />
-            </Card>
-        </div>
+        <StyledCard>
+            <h3>Title of Experience</h3>
+            <p>Description of Experience</p>
+            <input type="submit" value="game" name="game" />
+            <input type="submit" value="threejs" name="threejs" />
+        </StyledCard>
     );
 }

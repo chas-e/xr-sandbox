@@ -6,7 +6,7 @@ import Header from './Header';
 import Footer from './Footer';
 
 import Home from '../pages/home';
-import Project from '../pages/projects';
+import Projects from '../pages/projects';
 
 
 
@@ -27,7 +27,7 @@ export default function Layout(props) {
             <main>
                 <Switch>
                     <Home />
-                    <Project />
+                    <Projects />
                 </Switch>
             </main>
             <Footer />

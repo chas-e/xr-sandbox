@@ -19,7 +19,7 @@ const StyledCard = styled.div`
 export default function Card(props) {
     return (
         <StyledCard>
-            <img src="http://www.fillmurray.com/370/410"></img>
+            <img src="http://www.fillmurray.com/370/410" alt="Phil Murray"></img>
             <h3>Title of Experience</h3>
             <p>Description of Experience</p>
             <input type="submit" value="game" name="game" />

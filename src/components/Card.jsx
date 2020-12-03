@@ -14,6 +14,12 @@ const StyledCard = styled.div`
     border: 10px solid #000000;
     box-shadow: 20px 20px 4px #623CEA;
     border-radius: 20px;
+
+    input: {
+        display: flex;
+        flex-direction: row;
+        justify-content: space-evenly;
+    }
 `
 
 export default function Card(props) {

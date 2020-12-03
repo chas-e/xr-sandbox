@@ -26,9 +26,9 @@ export default function Layout(props) {
             <Header />
             <main>
                 <Switch>
-                    <Home />
-                    <Projects />
+                    <Home {...props} />
                 </Switch>
+                <Projects {...props} />
             </main>
             <Footer />
         </StyledLayout>
